@@ -1,0 +1,1012 @@
+[
+  {
+    "car": [
+      {
+        "id": "d700501e-dadf-4d46-bc5b-2b5379d80ea9",
+        "model": "Sedan",
+        "year": 29606,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T15:19:14.599Z",
+        "updated_at": "2023-08-03T10:47:39.536Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "61d22c85-a0a1-4aa4-90b3-a970e9e5a93b",
+        "model": "SUV",
+        "year": 20715,
+        "color": "Blue",
+        "status": "In Use",
+        "created_at": "2023-08-04T02:01:30.872Z",
+        "updated_at": "2023-08-03T18:10:56.992Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "914b75c6-6132-45f4-8f91-a000f9731974",
+        "model": "Hatchback",
+        "year": 20021,
+        "color": "Black",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T14:15:51.460Z",
+        "updated_at": "2023-08-03T06:28:40.626Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4e29714b-abf5-4069-bdcb-b4cce6214726",
+        "model": "Sports Car",
+        "year": 72105,
+        "color": "White",
+        "status": "Reserved",
+        "created_at": "2023-08-04T03:37:18.089Z",
+        "updated_at": "2023-08-03T17:05:16.163Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2c51624c-57f2-415d-94c1-73178dd1e415",
+        "model": "Electric Vehicle",
+        "year": 17595,
+        "color": "Silver",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T18:16:51.468Z",
+        "updated_at": "2023-08-04T03:55:33.683Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "eba7f829-b63a-436f-a7ca-769eda573bad",
+        "date": "2023-08-03T17:26:35.070Z",
+        "time": "2023-08-03T11:24:32.377Z",
+        "created_at": "2023-08-03T16:51:19.478Z",
+        "updated_at": "2023-08-03T05:40:00.560Z",
+        "car_id": "4e29714b-abf5-4069-bdcb-b4cce6214726",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2c50823-54d2-48ab-b59f-ce2ed985d941",
+        "date": "2023-08-03T08:14:53.405Z",
+        "time": "2023-08-03T17:26:57.123Z",
+        "created_at": "2023-08-04T02:43:28.294Z",
+        "updated_at": "2023-08-03T10:32:57.742Z",
+        "car_id": "914b75c6-6132-45f4-8f91-a000f9731974",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffd79037-35f9-4d9c-a340-fbb6d8119cb7",
+        "date": "2023-08-03T05:21:04.037Z",
+        "time": "2023-08-03T07:53:49.486Z",
+        "created_at": "2023-08-03T06:05:48.826Z",
+        "updated_at": "2023-08-03T05:49:24.401Z",
+        "car_id": "2c51624c-57f2-415d-94c1-73178dd1e415",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "817729f7-9187-49aa-a360-275112ae47e6",
+        "date": "2023-08-03T04:50:00.027Z",
+        "time": "2023-08-03T07:14:15.735Z",
+        "created_at": "2023-08-03T10:00:55.220Z",
+        "updated_at": "2023-08-03T18:38:55.016Z",
+        "car_id": "4e29714b-abf5-4069-bdcb-b4cce6214726",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa82e708-24f3-4f01-9e83-12b65e3fe688",
+        "date": "2023-08-04T01:08:43.581Z",
+        "time": "2023-08-03T05:57:18.607Z",
+        "created_at": "2023-08-03T16:21:10.535Z",
+        "updated_at": "2023-08-03T05:48:04.481Z",
+        "car_id": "4e29714b-abf5-4069-bdcb-b4cce6214726",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "6619636c-a20f-4a09-89a0-98580850f687",
+        "model": "Sedan",
+        "year": 52311,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T13:05:42.569Z",
+        "updated_at": "2023-08-03T23:44:30.340Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a065156f-74dc-49a0-a0b2-dd3999f2ffe3",
+        "model": "SUV",
+        "year": 56366,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T04:26:31.961Z",
+        "updated_at": "2023-08-03T13:45:05.410Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d7c490e1-b248-485e-a825-10842a23b72b",
+        "model": "Sports Car",
+        "year": 93055,
+        "color": "Green",
+        "status": "In Use",
+        "created_at": "2023-08-03T19:44:46.511Z",
+        "updated_at": "2023-08-03T06:39:01.738Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "10e46c7c-29a4-4688-b7e6-6cdf932ed448",
+        "model": "Hatchback",
+        "year": 44201,
+        "color": "Silver",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T03:39:43.719Z",
+        "updated_at": "2023-08-03T19:54:41.931Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8812ecab-1500-409c-a138-c9761cf96a13",
+        "model": "Convertible",
+        "year": 95681,
+        "color": "Black",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T13:56:38.820Z",
+        "updated_at": "2023-08-03T17:29:06.534Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "5f89b9ca-b0cc-41a7-9375-9777d093a885",
+        "date": "2023-08-03T05:04:31.429Z",
+        "time": "2023-08-03T12:12:57.618Z",
+        "created_at": "2023-08-03T15:14:34.448Z",
+        "updated_at": "2023-08-04T00:32:43.345Z",
+        "car_id": "10e46c7c-29a4-4688-b7e6-6cdf932ed448",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5c4b509-ebbc-4be6-a564-16da3989cbe3",
+        "date": "2023-08-04T03:10:53.866Z",
+        "time": "2023-08-03T15:12:22.402Z",
+        "created_at": "2023-08-03T10:57:47.721Z",
+        "updated_at": "2023-08-03T11:15:14.715Z",
+        "car_id": "6619636c-a20f-4a09-89a0-98580850f687",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ba44332-954b-4b1b-b88b-c1a3cf8441cb",
+        "date": "2023-08-03T14:01:13.163Z",
+        "time": "2023-08-03T05:29:14.844Z",
+        "created_at": "2023-08-03T10:08:09.252Z",
+        "updated_at": "2023-08-03T22:26:49.860Z",
+        "car_id": "8812ecab-1500-409c-a138-c9761cf96a13",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18d96672-bf73-48a0-aa16-c6523b230d09",
+        "date": "2023-08-03T17:51:47.598Z",
+        "time": "2023-08-03T13:52:55.129Z",
+        "created_at": "2023-08-03T20:00:19.236Z",
+        "updated_at": "2023-08-04T00:10:36.993Z",
+        "car_id": "d7c490e1-b248-485e-a825-10842a23b72b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d917b92-21d8-4557-b13e-69c5fc92e119",
+        "date": "2023-08-03T09:32:14.237Z",
+        "time": "2023-08-04T01:29:10.122Z",
+        "created_at": "2023-08-03T12:35:31.758Z",
+        "updated_at": "2023-08-03T21:36:10.887Z",
+        "car_id": "6619636c-a20f-4a09-89a0-98580850f687",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "48ed6e8e-b7f2-4bdc-9446-1b727a4f8d58",
+        "model": "Sedan",
+        "year": 87930,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T06:48:17.694Z",
+        "updated_at": "2023-08-03T20:07:58.669Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6c765b93-29f0-4ec2-94f5-a866c891f355",
+        "model": "SUV",
+        "year": 48334,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T19:37:51.304Z",
+        "updated_at": "2023-08-03T19:24:24.934Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a5926c4a-b86a-4f84-b64e-a5c4c1f06bbb",
+        "model": "Sports Car",
+        "year": 56748,
+        "color": "Black",
+        "status": "In Use",
+        "created_at": "2023-08-03T06:12:29.351Z",
+        "updated_at": "2023-08-04T02:47:16.551Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fcb8d1e8-9619-435e-8760-472e2ee4d211",
+        "model": "Hatchback",
+        "year": 84790,
+        "color": "White",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T19:56:05.448Z",
+        "updated_at": "2023-08-03T11:42:57.792Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90ba428f-63a7-4a8a-a10e-5c6a05c27194",
+        "model": "Convertible",
+        "year": 53551,
+        "color": "Silver",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T23:07:48.929Z",
+        "updated_at": "2023-08-03T09:04:22.045Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "11b5a1c1-8513-4731-82f0-761586d74917",
+        "date": "2023-08-04T03:18:19.754Z",
+        "time": "2023-08-03T09:31:34.682Z",
+        "created_at": "2023-08-03T18:58:49.206Z",
+        "updated_at": "2023-08-03T15:04:47.904Z",
+        "car_id": "90ba428f-63a7-4a8a-a10e-5c6a05c27194",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef15ba25-0f04-43a3-8551-46a27c2f1cbc",
+        "date": "2023-08-03T11:17:07.444Z",
+        "time": "2023-08-03T12:29:27.843Z",
+        "created_at": "2023-08-03T12:35:30.307Z",
+        "updated_at": "2023-08-04T02:46:22.003Z",
+        "car_id": "fcb8d1e8-9619-435e-8760-472e2ee4d211",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4630e5d-eddd-4215-bc56-35a297231b10",
+        "date": "2023-08-04T01:27:18.350Z",
+        "time": "2023-08-03T21:34:58.733Z",
+        "created_at": "2023-08-03T17:32:14.926Z",
+        "updated_at": "2023-08-03T07:28:24.130Z",
+        "car_id": "90ba428f-63a7-4a8a-a10e-5c6a05c27194",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a464d184-d74e-4f4e-af31-ecfd2a484e8b",
+        "date": "2023-08-03T19:19:45.065Z",
+        "time": "2023-08-04T00:20:29.504Z",
+        "created_at": "2023-08-03T14:41:05.471Z",
+        "updated_at": "2023-08-04T04:04:21.030Z",
+        "car_id": "90ba428f-63a7-4a8a-a10e-5c6a05c27194",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0523d43-7303-40a1-b906-10b7bd70ad6a",
+        "date": "2023-08-03T19:59:50.125Z",
+        "time": "2023-08-04T03:30:04.333Z",
+        "created_at": "2023-08-03T16:32:08.889Z",
+        "updated_at": "2023-08-03T17:30:06.898Z",
+        "car_id": "90ba428f-63a7-4a8a-a10e-5c6a05c27194",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "4559bd36-289b-45fb-802b-59f5a9e73e56",
+        "model": "Sedan",
+        "year": 13239,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T11:54:26.444Z",
+        "updated_at": "2023-08-03T04:21:04.243Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4d9435e0-456c-46e9-850d-5759d72a4f92",
+        "model": "SUV",
+        "year": 29427,
+        "color": "Blue",
+        "status": "In Use",
+        "created_at": "2023-08-03T20:04:37.192Z",
+        "updated_at": "2023-08-03T18:40:46.030Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "844523a3-927d-446e-b229-71fdba67c2c2",
+        "model": "Hatchback",
+        "year": 1332,
+        "color": "Black",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T02:32:48.397Z",
+        "updated_at": "2023-08-03T04:33:02.257Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5e953df3-e11b-4dfa-a027-bdb915f288db",
+        "model": "Sports Car",
+        "year": 72843,
+        "color": "White",
+        "status": "Reserved",
+        "created_at": "2023-08-03T11:20:46.302Z",
+        "updated_at": "2023-08-03T08:06:40.867Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "026d3cbb-e56d-4aa7-81ad-f976f4a586da",
+        "model": "Electric Vehicle",
+        "year": 41540,
+        "color": "Silver",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T18:28:39.650Z",
+        "updated_at": "2023-08-04T02:15:13.065Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "950f0ab6-64a8-4163-a609-fa590f0a3e9b",
+        "date": "2023-08-03T23:45:54.802Z",
+        "time": "2023-08-03T23:44:09.957Z",
+        "created_at": "2023-08-04T03:00:21.698Z",
+        "updated_at": "2023-08-04T00:33:48.016Z",
+        "car_id": "844523a3-927d-446e-b229-71fdba67c2c2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e58747d6-c13a-4471-ac36-d1c7683a8357",
+        "date": "2023-08-03T05:10:47.496Z",
+        "time": "2023-08-03T14:43:34.928Z",
+        "created_at": "2023-08-03T22:07:40.883Z",
+        "updated_at": "2023-08-04T02:18:20.862Z",
+        "car_id": "4d9435e0-456c-46e9-850d-5759d72a4f92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ad38ab3-ec20-435d-b9ea-29b0baa4bf96",
+        "date": "2023-08-03T11:47:57.402Z",
+        "time": "2023-08-04T01:04:42.949Z",
+        "created_at": "2023-08-03T13:34:20.158Z",
+        "updated_at": "2023-08-03T13:37:54.338Z",
+        "car_id": "026d3cbb-e56d-4aa7-81ad-f976f4a586da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "beb8dd7b-125a-4f68-a987-737ac4057b9a",
+        "date": "2023-08-03T07:23:09.566Z",
+        "time": "2023-08-03T07:16:41.201Z",
+        "created_at": "2023-08-03T06:49:13.128Z",
+        "updated_at": "2023-08-03T21:44:07.858Z",
+        "car_id": "4d9435e0-456c-46e9-850d-5759d72a4f92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd992c18-0dee-4af4-9dee-6d2254748e85",
+        "date": "2023-08-03T11:27:47.309Z",
+        "time": "2023-08-03T19:51:33.745Z",
+        "created_at": "2023-08-03T13:26:58.230Z",
+        "updated_at": "2023-08-03T16:13:29.988Z",
+        "car_id": "026d3cbb-e56d-4aa7-81ad-f976f4a586da",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "6218ddb8-3e7f-422f-8a5d-330c7af4cf39",
+        "model": "Sedan",
+        "year": 935,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-04T03:55:37.624Z",
+        "updated_at": "2023-08-03T10:50:34.662Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c30fea57-3f72-43b0-b01b-e04e7c127871",
+        "model": "SUV",
+        "year": 10436,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-04T02:41:30.166Z",
+        "updated_at": "2023-08-04T02:51:13.750Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7988efdf-5e48-4bcc-90f6-5bfe682a5382",
+        "model": "Sports Car",
+        "year": 95202,
+        "color": "Green",
+        "status": "In Use",
+        "created_at": "2023-08-03T14:26:25.519Z",
+        "updated_at": "2023-08-03T13:21:44.504Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8ca4d7bf-0c76-4c49-967d-57ee224f1741",
+        "model": "Hatchback",
+        "year": 6370,
+        "color": "Silver",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T19:11:04.725Z",
+        "updated_at": "2023-08-03T18:02:40.617Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "835a93d2-4f6b-48c7-b862-b905ce22709a",
+        "model": "Convertible",
+        "year": 57959,
+        "color": "Black",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T19:57:48.551Z",
+        "updated_at": "2023-08-03T10:06:24.019Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "005f0c6e-f1fc-4e7d-997b-0d489eaa5379",
+        "date": "2023-08-04T03:30:34.932Z",
+        "time": "2023-08-03T07:56:43.091Z",
+        "created_at": "2023-08-04T03:40:05.138Z",
+        "updated_at": "2023-08-03T04:56:06.821Z",
+        "car_id": "7988efdf-5e48-4bcc-90f6-5bfe682a5382",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db2b2624-26b3-44b9-aea8-eeff3943c83d",
+        "date": "2023-08-03T08:54:00.900Z",
+        "time": "2023-08-03T06:22:35.748Z",
+        "created_at": "2023-08-03T06:13:51.288Z",
+        "updated_at": "2023-08-03T04:48:34.425Z",
+        "car_id": "7988efdf-5e48-4bcc-90f6-5bfe682a5382",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7c5be44-7f00-476d-938d-1c401aea0b5f",
+        "date": "2023-08-03T15:19:37.206Z",
+        "time": "2023-08-03T13:57:02.627Z",
+        "created_at": "2023-08-03T10:57:54.470Z",
+        "updated_at": "2023-08-03T17:19:02.136Z",
+        "car_id": "6218ddb8-3e7f-422f-8a5d-330c7af4cf39",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be576cee-550c-4dbd-9a33-bcceef4df588",
+        "date": "2023-08-04T04:05:41.257Z",
+        "time": "2023-08-04T01:22:15.900Z",
+        "created_at": "2023-08-03T23:07:26.632Z",
+        "updated_at": "2023-08-03T11:56:28.411Z",
+        "car_id": "7988efdf-5e48-4bcc-90f6-5bfe682a5382",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "793bceee-d308-4b19-9938-c5c27fc1f8f9",
+        "date": "2023-08-03T17:59:26.816Z",
+        "time": "2023-08-03T09:04:49.060Z",
+        "created_at": "2023-08-03T17:48:56.380Z",
+        "updated_at": "2023-08-03T18:12:40.852Z",
+        "car_id": "835a93d2-4f6b-48c7-b862-b905ce22709a",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "91e1fac7-e066-4d52-81e2-24235be0bc67",
+        "model": "Sedan",
+        "year": 49060,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T15:02:02.897Z",
+        "updated_at": "2023-08-03T16:22:49.456Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a4dd9d46-d6d8-4ba7-b07a-4da29aeb6ba0",
+        "model": "SUV",
+        "year": 29573,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T08:32:42.771Z",
+        "updated_at": "2023-08-04T02:10:31.640Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "89213c8d-1076-4ec1-a6f6-8dcfb36cd803",
+        "model": "Hatchback",
+        "year": 9624,
+        "color": "Black",
+        "status": "In Use",
+        "created_at": "2023-08-03T17:31:54.672Z",
+        "updated_at": "2023-08-04T03:24:36.114Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3de5ec28-0676-43e0-9c6b-8550be86aca1",
+        "model": "Sports Car",
+        "year": 52776,
+        "color": "White",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T04:10:11.765Z",
+        "updated_at": "2023-08-03T05:17:15.055Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d0efe48e-2bbd-4d55-9c87-0885714272ec",
+        "model": "Electric Vehicle",
+        "year": 46764,
+        "color": "Silver",
+        "status": "Out of Service",
+        "created_at": "2023-08-04T03:39:39.392Z",
+        "updated_at": "2023-08-03T14:45:16.667Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1ef6e2cd-697d-41a3-8fc5-0fc81d17d10d",
+        "date": "2023-08-03T08:42:23.639Z",
+        "time": "2023-08-04T03:29:27.283Z",
+        "created_at": "2023-08-03T20:20:37.377Z",
+        "updated_at": "2023-08-04T00:29:23.917Z",
+        "car_id": "3de5ec28-0676-43e0-9c6b-8550be86aca1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "834aa7ab-10db-4ee0-8db7-30ecb3d8ced4",
+        "date": "2023-08-03T06:25:27.465Z",
+        "time": "2023-08-04T02:09:30.030Z",
+        "created_at": "2023-08-03T09:11:56.472Z",
+        "updated_at": "2023-08-03T16:49:39.762Z",
+        "car_id": "d0efe48e-2bbd-4d55-9c87-0885714272ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d154956-00f8-449a-a9b1-3f567310bb61",
+        "date": "2023-08-03T16:34:13.966Z",
+        "time": "2023-08-03T08:07:35.253Z",
+        "created_at": "2023-08-03T10:03:43.373Z",
+        "updated_at": "2023-08-03T10:31:37.246Z",
+        "car_id": "d0efe48e-2bbd-4d55-9c87-0885714272ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70faaec8-79d3-43df-9d5e-64015a79595a",
+        "date": "2023-08-03T17:42:09.726Z",
+        "time": "2023-08-03T17:25:30.921Z",
+        "created_at": "2023-08-03T16:44:16.279Z",
+        "updated_at": "2023-08-03T15:53:39.050Z",
+        "car_id": "3de5ec28-0676-43e0-9c6b-8550be86aca1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b07eacd3-f2b4-43df-8eb2-dfaec4af78c8",
+        "date": "2023-08-03T12:39:47.034Z",
+        "time": "2023-08-04T00:41:50.148Z",
+        "created_at": "2023-08-03T11:04:35.443Z",
+        "updated_at": "2023-08-03T22:39:44.997Z",
+        "car_id": "3de5ec28-0676-43e0-9c6b-8550be86aca1",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "6ba4980f-ef76-4ae3-bfdc-d5d56f718a32",
+        "model": "Sedan",
+        "year": 52248,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T04:30:00.184Z",
+        "updated_at": "2023-08-03T10:47:44.955Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "98659f0f-6234-4812-909e-03bd7c96db5e",
+        "model": "SUV",
+        "year": 30907,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T17:23:25.863Z",
+        "updated_at": "2023-08-03T18:06:02.935Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5e395619-ba9f-48e9-a1e5-ef76f63e91db",
+        "model": "Sports Car",
+        "year": 76734,
+        "color": "Black",
+        "status": "In Use",
+        "created_at": "2023-08-04T02:14:52.286Z",
+        "updated_at": "2023-08-03T21:20:41.831Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ecae2481-9453-493f-a75b-f43c9a5a7809",
+        "model": "Hatchback",
+        "year": 57288,
+        "color": "White",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T12:51:16.268Z",
+        "updated_at": "2023-08-03T06:46:05.353Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "12d3c80c-8827-477c-9e38-4b470b5aea02",
+        "model": "Convertible",
+        "year": 18907,
+        "color": "Silver",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T11:40:57.105Z",
+        "updated_at": "2023-08-03T06:27:26.132Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "80053ca3-82d0-4421-8733-65dad5338fdd",
+        "date": "2023-08-03T07:54:17.477Z",
+        "time": "2023-08-03T14:15:08.717Z",
+        "created_at": "2023-08-03T20:05:42.678Z",
+        "updated_at": "2023-08-03T19:40:16.471Z",
+        "car_id": "5e395619-ba9f-48e9-a1e5-ef76f63e91db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8148d54b-10af-4e5b-9667-dc6cff636255",
+        "date": "2023-08-03T21:57:50.416Z",
+        "time": "2023-08-04T00:10:35.619Z",
+        "created_at": "2023-08-03T23:16:39.108Z",
+        "updated_at": "2023-08-04T02:09:27.890Z",
+        "car_id": "12d3c80c-8827-477c-9e38-4b470b5aea02",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30e7a7e1-d919-4441-a3aa-17dc7957254b",
+        "date": "2023-08-04T00:38:17.286Z",
+        "time": "2023-08-04T04:06:14.294Z",
+        "created_at": "2023-08-03T11:50:20.147Z",
+        "updated_at": "2023-08-03T21:11:41.676Z",
+        "car_id": "5e395619-ba9f-48e9-a1e5-ef76f63e91db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6e42858-180d-418b-b79a-267edb9a93d7",
+        "date": "2023-08-03T07:55:52.534Z",
+        "time": "2023-08-03T07:49:52.259Z",
+        "created_at": "2023-08-04T02:32:36.253Z",
+        "updated_at": "2023-08-03T18:31:14.206Z",
+        "car_id": "98659f0f-6234-4812-909e-03bd7c96db5e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be049d1b-586e-4232-bd1a-9f5901318b8d",
+        "date": "2023-08-04T01:23:32.067Z",
+        "time": "2023-08-03T21:30:53.037Z",
+        "created_at": "2023-08-03T04:24:53.860Z",
+        "updated_at": "2023-08-03T12:50:16.375Z",
+        "car_id": "6ba4980f-ef76-4ae3-bfdc-d5d56f718a32",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "0e9950c9-0163-4c63-95f0-5a9e49c07948",
+        "model": "Sedan",
+        "year": 81079,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T10:05:19.602Z",
+        "updated_at": "2023-08-03T19:55:30.111Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8aa4cbc4-18c4-468d-a591-906eb2275e8e",
+        "model": "SUV",
+        "year": 86784,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T08:11:46.077Z",
+        "updated_at": "2023-08-03T04:27:07.476Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d1f40602-e9e2-4aa4-b836-00e9e1617c51",
+        "model": "Sports Car",
+        "year": 44993,
+        "color": "Green",
+        "status": "In Use",
+        "created_at": "2023-08-03T18:43:12.603Z",
+        "updated_at": "2023-08-03T21:47:28.252Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4df8e77f-ae79-4217-84af-ad1a1e1544ac",
+        "model": "Hatchback",
+        "year": 52345,
+        "color": "Silver",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T06:57:57.375Z",
+        "updated_at": "2023-08-03T19:46:08.346Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7625cd86-907d-4b49-9d3f-efa0749eb16a",
+        "model": "Convertible",
+        "year": 35452,
+        "color": "Black",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T11:08:23.690Z",
+        "updated_at": "2023-08-03T14:49:12.856Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "aa87a372-173d-4c59-a542-c2db8923029c",
+        "date": "2023-08-03T11:54:42.137Z",
+        "time": "2023-08-03T06:39:03.122Z",
+        "created_at": "2023-08-03T08:46:36.278Z",
+        "updated_at": "2023-08-03T06:45:18.381Z",
+        "car_id": "d1f40602-e9e2-4aa4-b836-00e9e1617c51",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a70cfcc6-8a71-4ef5-aa8d-0a1139a345d0",
+        "date": "2023-08-03T05:19:40.627Z",
+        "time": "2023-08-03T15:03:36.616Z",
+        "created_at": "2023-08-04T01:44:27.725Z",
+        "updated_at": "2023-08-03T13:13:30.095Z",
+        "car_id": "7625cd86-907d-4b49-9d3f-efa0749eb16a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4833f984-d25a-4928-b559-49e5e69c4412",
+        "date": "2023-08-03T05:40:14.110Z",
+        "time": "2023-08-03T06:25:28.369Z",
+        "created_at": "2023-08-03T12:12:17.737Z",
+        "updated_at": "2023-08-04T02:38:16.654Z",
+        "car_id": "8aa4cbc4-18c4-468d-a591-906eb2275e8e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8fde7b1-0d75-4e1c-a848-bfbc9f9a6a4c",
+        "date": "2023-08-04T01:08:33.285Z",
+        "time": "2023-08-04T03:01:56.517Z",
+        "created_at": "2023-08-03T17:23:26.460Z",
+        "updated_at": "2023-08-03T14:58:14.312Z",
+        "car_id": "0e9950c9-0163-4c63-95f0-5a9e49c07948",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d8fb0ef-a550-4708-ac7d-68e0f6e27ae3",
+        "date": "2023-08-03T15:41:45.834Z",
+        "time": "2023-08-03T20:16:16.349Z",
+        "created_at": "2023-08-03T22:59:50.697Z",
+        "updated_at": "2023-08-04T03:20:37.509Z",
+        "car_id": "4df8e77f-ae79-4217-84af-ad1a1e1544ac",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "297cedb1-adc1-4de1-914e-66b1fa565545",
+        "model": "Sedan",
+        "year": 13582,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T17:38:36.719Z",
+        "updated_at": "2023-08-03T05:18:56.150Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "04173428-03e1-427a-8329-3383565daf8e",
+        "model": "SUV",
+        "year": 95506,
+        "color": "Blue",
+        "status": "Reserved",
+        "created_at": "2023-08-03T20:53:26.881Z",
+        "updated_at": "2023-08-03T18:18:57.135Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "98977c01-2818-4014-900c-f0ed56cbd430",
+        "model": "Hatchback",
+        "year": 15215,
+        "color": "Black",
+        "status": "In Use",
+        "created_at": "2023-08-03T15:24:10.969Z",
+        "updated_at": "2023-08-03T21:21:18.037Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5c712dfe-b248-4909-bb88-2aeacaa2de2c",
+        "model": "Sports Car",
+        "year": 85460,
+        "color": "White",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-04T00:39:42.156Z",
+        "updated_at": "2023-08-04T00:08:47.247Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "70a3a772-ea34-4ffe-b9e6-d77391d8f46f",
+        "model": "Electric Vehicle",
+        "year": 73935,
+        "color": "Silver",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T21:38:27.160Z",
+        "updated_at": "2023-08-03T08:05:13.495Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d10e4741-cc70-415e-a8f1-5ab12cf1fbfe",
+        "date": "2023-08-04T02:58:46.983Z",
+        "time": "2023-08-03T04:22:16.380Z",
+        "created_at": "2023-08-04T01:02:01.132Z",
+        "updated_at": "2023-08-03T14:21:18.978Z",
+        "car_id": "04173428-03e1-427a-8329-3383565daf8e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebe0d438-7394-46cf-8697-d911b24beb9c",
+        "date": "2023-08-03T18:57:24.464Z",
+        "time": "2023-08-03T22:39:04.312Z",
+        "created_at": "2023-08-03T18:56:10.407Z",
+        "updated_at": "2023-08-03T11:41:55.045Z",
+        "car_id": "5c712dfe-b248-4909-bb88-2aeacaa2de2c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5355d95a-5d3f-45bf-8085-5ee69e8efc7c",
+        "date": "2023-08-03T19:17:02.049Z",
+        "time": "2023-08-03T23:48:23.755Z",
+        "created_at": "2023-08-03T09:46:18.053Z",
+        "updated_at": "2023-08-03T21:36:02.310Z",
+        "car_id": "04173428-03e1-427a-8329-3383565daf8e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a743709e-f867-4194-b6f6-4eeba98e3750",
+        "date": "2023-08-03T18:40:07.603Z",
+        "time": "2023-08-03T05:10:32.591Z",
+        "created_at": "2023-08-03T10:20:17.644Z",
+        "updated_at": "2023-08-03T09:52:23.726Z",
+        "car_id": "98977c01-2818-4014-900c-f0ed56cbd430",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b41e5997-de33-45d7-a677-c7184da4907d",
+        "date": "2023-08-03T04:29:21.408Z",
+        "time": "2023-08-03T07:25:49.208Z",
+        "created_at": "2023-08-03T18:24:21.557Z",
+        "updated_at": "2023-08-03T15:33:45.961Z",
+        "car_id": "297cedb1-adc1-4de1-914e-66b1fa565545",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "65a4bb4c-4b12-4a7d-b351-86a005340f83",
+        "model": "Sedan",
+        "year": 79860,
+        "color": "Red",
+        "status": "Available",
+        "created_at": "2023-08-03T21:26:41.311Z",
+        "updated_at": "2023-08-03T20:01:45.121Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8a586b1e-f05e-4290-8ac0-88be73c57183",
+        "model": "SUV",
+        "year": 20581,
+        "color": "Blue",
+        "status": "In Use",
+        "created_at": "2023-08-03T19:00:37.550Z",
+        "updated_at": "2023-08-03T21:27:49.585Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8133f52e-b68f-434d-99b2-051328982cd4",
+        "model": "Hatchback",
+        "year": 78630,
+        "color": "Black",
+        "status": "Under Maintenance",
+        "created_at": "2023-08-03T17:12:54.847Z",
+        "updated_at": "2023-08-03T11:50:54.969Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ef3b5853-17eb-4577-97bf-8fb87100a7a9",
+        "model": "Sports Car",
+        "year": 12307,
+        "color": "White",
+        "status": "Reserved",
+        "created_at": "2023-08-03T09:46:59.991Z",
+        "updated_at": "2023-08-04T02:35:10.458Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "994fda77-c1b4-4777-bf15-c11e31caefd6",
+        "model": "Electric Vehicle",
+        "year": 84237,
+        "color": "Silver",
+        "status": "Out of Service",
+        "created_at": "2023-08-03T08:01:55.866Z",
+        "updated_at": "2023-08-03T06:11:47.056Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "20403bf2-f851-4b36-a68b-590f7f224995",
+        "date": "2023-08-03T22:37:31.895Z",
+        "time": "2023-08-03T04:18:24.890Z",
+        "created_at": "2023-08-04T01:08:23.228Z",
+        "updated_at": "2023-08-03T15:11:46.271Z",
+        "car_id": "ef3b5853-17eb-4577-97bf-8fb87100a7a9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "831f29d4-9214-4af5-84c9-759e303f725d",
+        "date": "2023-08-03T22:15:48.298Z",
+        "time": "2023-08-04T01:44:59.998Z",
+        "created_at": "2023-08-03T20:40:30.980Z",
+        "updated_at": "2023-08-04T00:49:34.607Z",
+        "car_id": "65a4bb4c-4b12-4a7d-b351-86a005340f83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d084421e-6e1d-4554-b233-5f26270520da",
+        "date": "2023-08-03T11:03:22.769Z",
+        "time": "2023-08-04T00:46:01.685Z",
+        "created_at": "2023-08-03T15:44:58.383Z",
+        "updated_at": "2023-08-03T18:06:19.391Z",
+        "car_id": "ef3b5853-17eb-4577-97bf-8fb87100a7a9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5df130b-b444-4b3c-8eed-034762b65a85",
+        "date": "2023-08-03T10:52:16.539Z",
+        "time": "2023-08-03T13:43:11.367Z",
+        "created_at": "2023-08-03T22:36:04.513Z",
+        "updated_at": "2023-08-03T09:42:26.009Z",
+        "car_id": "8a586b1e-f05e-4290-8ac0-88be73c57183",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52cd8e17-6f24-4cf6-bb63-f3be35796911",
+        "date": "2023-08-03T23:22:09.963Z",
+        "time": "2023-08-03T20:44:47.859Z",
+        "created_at": "2023-08-03T14:10:21.006Z",
+        "updated_at": "2023-08-03T07:17:41.237Z",
+        "car_id": "ef3b5853-17eb-4577-97bf-8fb87100a7a9",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  }
+]
